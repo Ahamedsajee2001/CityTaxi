@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("reservation.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family:'Open Sans', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    margin-right: 150px;
+
+}
+.navbar{
+    position: absolute;
+    width: fit-content;
+    justify-content:center;
+    display: flex;
+    float: right;
+    right: 0px;
+
+}
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+    display: inline;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: 3s;
+    justify-content: space-between;
+    
+}
+
+.navbar a:hover{
+  color: yellow;
+}
+.container{
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    min-height: fit-content;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color:beige;
+}
+.container h2{
+    text-align: center;
+    color: yellow;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+label {
+    font-weight: 700;
+}
+
+input[type="text"], select, input[type="datetime-local"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 400;
+    border-width: 2px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:550px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+
+    
+}
+input[type="submit"]:hover {
+    background-color: green;
+}
+form input , select{
+    color:black;
+    font-size:15px;
+    font: weight 600px;
+    background: transparent;
+    border-radius: 5px;
+    border-color: black;
+    margin-top: 5px;
+    border-width: 2px;
+}
+span{
+    color: black;
+    font-weight: 600;
+}
