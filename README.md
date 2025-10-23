@@ -82,3 +82,91 @@ This project is developed for educational and demonstration purposes as part of 
 
 
 ## 🧰 Project Structure
+CityTaxiReservationSystem/
+│
+├── 📁 frontend/
+│   ├── 📁 assets/
+│   │   ├── css/
+│   │   │   ├── style.css
+│   │   │   └── responsive.css
+│   │   ├── js/
+│   │   │   ├── main.js
+│   │   │   └── booking.js
+│   │   ├── images/
+│   │   │   ├── logo.png
+│   │   │   └── banner.jpg
+│   │   └── fonts/
+│   │
+│   ├── 📁 pages/
+│   │   ├── index.html           → Homepage / booking UI
+│   │   ├── login.html           → Passenger & Driver login
+│   │   ├── register.html        → User registration page
+│   │   ├── booking.html         → Booking interface
+│   │   ├── driver-dashboard.html→ Driver dashboard
+│   │   ├── admin-dashboard.html → Admin control panel
+│   │   └── about.html           → Project or company info
+│   │
+│   └── 📁 components/
+│       ├── navbar.html
+│       ├── footer.html
+│       └── modals.html
+│
+│
+├── 📁 backend/
+│   ├── 📁 config/
+│   │   └── db_config.php        → Database connection setup
+│   │
+│   ├── 📁 models/
+│   │   ├── user.php             → User data model
+│   │   ├── driver.php           → Driver data model
+│   │   ├── booking.php          → Booking data model
+│   │   └── payment.php          → Payment handling logic
+│   │
+│   ├── 📁 controllers/
+│   │   ├── authController.php   → Handles login/register
+│   │   ├── bookingController.php→ Manages booking requests
+│   │   ├── driverController.php → Manages driver activities
+│   │   ├── paymentController.php→ Handles online payments
+│   │   └── adminController.php  → Admin monitoring logic
+│   │
+│   ├── 📁 routes/
+│   │   ├── api.php              → API endpoints
+│   │   └── web.php              → Page routing rules
+│   │
+│   ├── 📁 helpers/
+│   │   ├── validation.php
+│   │   └── utils.php
+│   │
+│   └── index.php                → Main backend entry point
+│
+│
+├── 📁 database/
+│   ├── city_taxi.sql            → MySQL database dump
+│   ├── schema.png               → Database ER diagram
+│   └── migrations/              → SQL table creation scripts
+│
+│
+├── 📁 docs/
+│   ├── Assessment_Report.pdf    → Original report
+│   ├── README.md                → Documentation for GitHub
+│   ├── PROJECT_STRUCTURE.txt    → This structure file
+│   ├── LICENSE.txt
+│   └── presentation.pptx        → Optional project slides
+│
+│
+├── 📁 tests/
+│   ├── unit/
+│   │   ├── bookingTest.php
+│   │   ├── userAuthTest.php
+│   │   └── driverTest.php
+│   └── integration/
+│       └── paymentIntegrationTest.php
+│
+│
+├── .gitignore                   → Ignore node_modules, env, etc.
+├── README.md                    → Main project overview
+├── package.json                 → (If using npm for frontend libs)
+├── composer.json                → (If using PHP Composer)
+├── .env.example                 → Environment variable template
+└── LICENSE                      → License info
+
